@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media reponsive.css">
+    <title>Avaliações</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; 
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="index.html#Pedidos" class="link">Pedidos</a></li>
+                <li><a href="index.html#Comentarios" class="link">Avaliações</a></li>
+                <li><a href="Avaliação da loja.html" class="link">Avalie nossa loja</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <form class="form-avaliacao" action="" method="get">
+        <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome">
+            <label for="idade">Idade:</label>
+            <input type="date" name="idade" id="iidade" placeholder="Digite sua idade">
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+            <div class="linhapontilhada"></div>
+            <p>Nota para o atendimento:</p>
+        <ul>
+            <label for="atendimentonota1">&#9733;</label>
+            <li><input type="radio" name="atendimentonota1" id="atendimentonota1"></li>
+            <label for="atendimentonota2">&#9733;&#9733;</label>
+            <li><input type="radio" name="atendimentonota2" id="atendimentonota2"></li>
+            <label for="atendimentonota3">&#9733;&#9733;&#9733;</label>
+            <li><input type="radio" name="atendimentonota3" id="atendimentonota3"></li>
+            <label for="atendimentonota4">&#9733;&#9733;&#9733;&#9733;</label>
+            <li><input type="radio" name="atendimentonota4" id="atendimentonota4"></li>
+            <label for="atendimentonota5">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
+            <li><input type="radio" name="atendimentonota5" id="atendimentonota5"></li>
+        </ul>
+        <div class="linhapontilhada"></div>
+        <p>Nota para nossa pizza:</p>
+        <ul >
+            <label for="sabornota1">&#9733;</label>
+            <li><input type="radio" name="sabornota1" id="sabornota1"></li>
+            <label for="sabornota2">&#9733;&#9733;</label>
+            <li><input type="radio" name="sabornota2" id="sabornota2"></li>
+            <label for="sabornota3">&#9733;&#9733;&#9733;</label>
+            <li><input type="radio" name="sabornota3" id="sabornota3"></li>
+            <label for="sabornota4">&#9733;&#9733;&#9733;&#9733;</label>
+            <li><input type="radio" name="sabornota4" id="sabornota4"></li>
+            <label for="sabornota5">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
+            <li><input type="radio" name="sabornota5" id="sabornota5"></li>
+        </ul>
+        <p>Deixe seu comentario sobre nossa pizzaria:</p>
+        <textarea name="comentarios" id="icomentario" rows="10" cols="74" maxlength="500" style="display: flex;" >
+
+        </textarea>
+        <br>    
+        <button type="submit">Enviar</button>
+       </form>
+
+    </main>
+
+    <footer>
+        <h4>PARA MAIS INFORMAÇÕES: <br>
+            PIZZARIAAMORBOM@GMAIL.COM</h4>   
+            
+            <div class="icone"><img class="icone" src="/img/Coraçãoicone.png" alt="" ><br><h5><i>www.exemplolink.com.br</i></h5></div>
+        <h4><b>O SABOR DE NOSSA PIZZA É O MESMO DO NOSSO AMOR!</b></h4>
+            <div class="cp"><sub>Copyright©</sub></div>
+            
+    </footer>
+    <script src="js/js nav.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

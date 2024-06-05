@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        width: fit-content;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 1em;
+        border-bottom: 1px solid #fefefe;
+    }
+    main{
+        margin: 5px;
+        padding: 5px;
+        height: fit-content;
+    }
+    form ul{
+        flex-direction: column;
+    }
+    footer{
+        display: grid;
+        height: fit-content;
+    }
+}

@@ -9,7 +9,7 @@ background: -moz-linear-gradient(145deg, rgba(37,67,54,1) 0%, rgba(107,138,122,1
 background: -webkit-linear-gradient(145deg, rgba(37,67,54,1) 0%, rgba(107,138,122,1) 30%, rgba(183,181,151,1) 72%, rgba(0,0,0,1) 100%);
 background: linear-gradient(145deg, rgba(37,67,54,1) 0%, rgba(107,138,122,1) 30%, rgba(183,181,151,1) 72%, rgba(0,0,0,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#254336",endColorstr="#000000",GradientType=1);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2613f",endColorstr="#0c0c0c",GradientType=1);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="DAD3BE",endColorstr="#0c0c0c",GradientType=1);
 }
 /*cabeçalho e links*/
 header {
@@ -43,13 +43,13 @@ nav {
 }
 
 .nav-links a {
-    color: #F2613F;
+    color: #DAD3BE;
     text-decoration: none;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
-    color: #9B3922;
+    color: rgb(37,67,54);
 }
 main{
     background-color:rgba(255,255,255,0.31090487238979114);
@@ -59,12 +59,14 @@ main{
 }
 .cart{
     position: absolute;
-    top: 3%;
+    margin: 5px;
+    padding: 5px;
+    top: 1%;
     right: 2%;
-    background-color: #F2613F;
+    background-color: #DAD3BE;
 }
 .cart:hover{
-    background-color: #9B3922 ;
+    background-color: rgb(37,67,54) ;
     box-shadow: 3px 2px 2px white;
 }
 .cart:active{
@@ -101,6 +103,8 @@ margin: 5px;
 /*imagens*/
 .cards {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
     border: 5px double #000;
     margin: 5px;
     padding: 5px;
@@ -114,12 +118,11 @@ margin: 5px;
 .image-cards img {
     width: 100%;
     height: auto;
-    width: 500px;
-    height: auto;
 }
-#img-3{
+#img{
     display: flex;
 }
+
 /* informações que aparece quando coloca o mouse em cima das imagens*/
 /*sobreposição*/
 .overlay  {
@@ -172,7 +175,7 @@ footer{
     padding-top: 20px;
     margin-top: 10px;
     background-color: rgb(0, 0, 0);
-    color: #F2613F;
+    color: #DAD3BE;
     text-align: center;
     font-size: small;
     font-family: sans-serif;
@@ -592,12 +595,12 @@ select {
 header section,.cards button {
     margin: 5px;
     padding: 5px;
-    background-color: #F2613F;
+    background-color: #DAD3BE;
     box-shadow: 2px 1px 1px black;
     font-size: 18px;
 }
 header section,.cards button:hover{
-    background-color: #9B3922;
+    background-color: rgb(37,67,54);
     font-size: 19px;
 }
 header section,.cards button:active{
@@ -609,12 +612,12 @@ header section,.cards button:active{
 form button {
     margin: 5px;
     padding: 5px;
-    background-color: #F2613F;
+    background-color: DAD3BE;
     box-shadow: 5px 3px 1px black;
     font-size: 18px;
 }
  form button:hover{
-    background-color: #9B3922;
+    background-color: rgb(37,67,54);
     font-size: 19px;
 }
  form button:active{
@@ -623,17 +626,17 @@ form button {
 }
 .conta{
     position: absolute;
+    top: 1%;
     right: 10%;
     margin: 5px;
     padding: 5px;
-    padding-right: 30px;
-    height: 35px;
-    background-color:  rgb(37,67,54);
+    height: 45px;
+    background-color:  #DAD3BE;
     box-shadow: 2px 1px 1px black;
     font-size: 18px;
 }
-.conta button:hover{
-    background-color: #B7B597;
+.conta a:hover{
+    background-color: #254336;
     font-size: 19px;
 }
 header section,.conta button:active{
@@ -644,7 +647,7 @@ header section,.conta button:active{
 #Carrinho {
     display: none;
     border: 1px solid #888;
-    background-color: #9B3922;
+    background-color: rgb(37,67,54);
     min-height: 500px;
     height: auto;
     min-width: 200px;

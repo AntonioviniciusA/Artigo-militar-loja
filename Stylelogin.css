@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
-body {
-background-image:url('https://w0.peakpx.com/wallpaper/666/971/HD-wallpaper-red-lego-texture-macro-red-dots-background-lego-red-backgrounds-lego-textures-lego-patterns.jpg');
-}
+
 
 div#body{
     font-family: sans-serif;
@@ -16,12 +14,6 @@ div#body{
 
  div#background{
     height: 1000px;
-    background: rgb(37,67,54);
-    background: -moz-linear-gradient(145deg, rgba(37,67,54,1) 0%, rgba(107,138,122,1) 30%, rgba(183,181,151,1) 72%, rgba(0,0,0,1) 100%);
-    background: -webkit-linear-gradient(145deg, rgba(37,67,54,1) 0%, rgba(107,138,122,1) 30%, rgba(183,181,151,1) 72%, rgba(0,0,0,1) 100%);
-    background: linear-gradient(145deg, rgba(37,67,54,1) 0%, rgba(107,138,122,1) 30%, rgba(183,181,151,1) 72%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#254336",endColorstr="#000000",GradientType=1);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2613f",endColorstr="#0c0c0c",GradientType=1);
 }
 
  div#login {
@@ -103,7 +95,7 @@ div#body{
 
  .botao:hover{
     transform: scale(1.05);
-    background-color: rgb(167, 0, 8);
+    background-color: #B7B597;
     color: aliceblue;
  }
 
@@ -226,3 +218,70 @@ div#body{
    top: -108px;
    left: 283px;
  }
+ header {
+  background-color: black;
+  height: 5px;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+nav {
+  margin-top: -2%;
+  position: relative;
+  color: white;
+  padding: 1em;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  color: #DAD3BE;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: rgb(37,67,54);
+}
+main{
+  background-color:rgba(255,255,255,0.31090487238979114);
+  height: fit-content;
+  margin: 10px;
+  padding: 50px;
+}
+.conta{
+  position: absolute;
+  top: 1%;
+  right: 10%;
+  margin: 5px;
+  padding: 5px;
+  height: 45px;
+  background-color:  #DAD3BE;
+  box-shadow: 2px 1px 1px black;
+  font-size: 18px;
+}
+.conta a:hover{
+  background-color: #254336;
+  font-size: 19px;
+}
+header section,.conta button:active{
+  box-shadow: 1px 1px 1px black;
+  transition: 10ms;
+}
+body{
+  background-image: url(https://img.freepik.com/fotos-gratis/campo-de-trigo-fundo-militar-do-exercito_1409-6739.jpg?t=st=1717631362~exp=1717634962~hmac=bd5daa34a2f54f0a48f115161016e270327808b39feb3dc9e9b4a2858c87baeb&w=996);
+}

@@ -32,7 +32,7 @@
               <h1 id="login">login</h1>
               <img src="/img/download.png" alt="logo">
                <p>Usuario:</p>
-              <input name="usuario" class="login" type="email" placeholder="Digite seu E-mail">
+              <input name="usuario" class="login" type="email" placeholder="Digite seu E-mail" id="password-input">
               <p id="senha">Senha:</p>
               <input name="senha" class="login" id="password" type="password"  placeholder="Digite sua senha" >
               <a id="esqueci" href="/">Esqueci minha senha</a>
@@ -43,4 +43,15 @@
         </div>
       </div>
     </body>
+    <script> require([
+      'jquery',
+      'passwordStrengthIndicator'
+  ], function ($) {
+      'use strict';
+
+      $("#password-input").passwordStrengthIndicator({
+            "passwordStrengthMeterSelector":"[data-role=strength-meter]",
+            "passwordStrengthMeterLabelSelector":"[data-role=strength-meter-label]"
+      });
+  });</script>
 </html>
